@@ -1,6 +1,6 @@
 import { test } from 'vitest';
 import { render } from '@testing-library/svelte';
-import AudioControls from '../lib/audiocontrols.svelte';
+import AudioControls from 'src/lib/audiocontrols.svelte';
 import '@testing-library/jest-dom'
 
 test('AudioControls component should render the Broadcast Audio button', () => {
