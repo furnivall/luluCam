@@ -1,6 +1,6 @@
 import { test } from 'vitest';
 import { render } from '@testing-library/svelte';
-import TempHumidity from '../lib/temphumidity.svelte';
+import TempHumidity from 'src/lib/TempHumidity.svelte';
 import '@testing-library/jest-dom'
 
 test('TempHumidity component should render temperature and humidity elements', () => {
