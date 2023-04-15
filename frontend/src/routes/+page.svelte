@@ -1,7 +1,7 @@
 <script>
-  import VideoFeed from '../lib/VideoFeed.svelte';
-  import AudioControls from '../lib/AudioControls.svelte';
-  import TempHumidity from '../lib/TempHumidity.svelte';
+  import VideoFeed from '$lib/VideoFeed.svelte';
+  import AudioControls from '$lib/AudioControls.svelte';
+  import TempHumidity from '$lib/TempHumidity.svelte';
 </script>
 
 <main>
@@ -18,3 +18,4 @@
     padding: 1rem;
   }
 </style>
+
